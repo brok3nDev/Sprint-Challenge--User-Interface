@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,21 +71,6 @@ p {
     margin: 0 auto;
 }
 
-.navigation{
-	width: 60%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 2%;
-	font-size: 14px;
-	width: 100%;
-}
-
-.navigation a {
-	color: black;
-	text-decoration: none;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;
+    padding-bottom: 20px;  
 }
 
 .middle-content {
@@ -158,126 +143,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-.boxes{
-	display: flex;
-	padding: 0;
- 	margin: 0;
-	flex-wrap: wrap;
-	flex-direction: row;
-	list-style: none;
-	margin-left: 30px;
-}
-
-
-.box-1{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #067D80;
-}
-.box-2{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: yellow;
-}
-.box-3{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #609DA2;
-}
-.box-4{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #FF7C4E;
-}
-.box-5{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #E31039;
-}
-.box-6{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #228C20;
-}
-.box-7{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #9932CC;
-}
-.box-8{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #FF68B3;
-}
-.box-9{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #4B0081;
-}
-.box-10{
-	padding: 20px;
-	width: 100px;
-  height: 100px;
-	margin: 25px;
-	border: 1px solid gold;
-	margin-top: 10px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #1D91FF;
 }
