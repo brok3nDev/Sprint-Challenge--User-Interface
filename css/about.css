@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.navigation{
+/* .navigation{
   margin: auto 0;
 	display: flex;
 	justify-content: space-between;
@@ -74,7 +74,23 @@ p {
 	padding: 20px 2%;
 	font-size: 14px;
 	width: 750px;;
+} */
+
+.navigation{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	font-size: 14px;
+	width: 100%;
 }
+
+.navigation a {
+	color: black;
+	text-decoration: none;
+}
+
 
 .container {
     max-width: 800px;
